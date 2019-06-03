@@ -58,6 +58,6 @@ func TestMainOutputFibNeg7(t *testing.T) {
 	actual := strconv.Quote(buf.String())
 
 	if expected != actual {
-		t.Errorf("Unexpected output in main() | \n%v\n%v", actual, expected)
+		t.Errorf("Unexpected output in fib(-7) | \n%v\n%v", actual, expected)
 	}
 }
